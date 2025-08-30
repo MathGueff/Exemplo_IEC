@@ -30,6 +30,9 @@ public class Exemplo_IEC {
             case "-" -> {
                 System.out.println("O resultado é: " + (n1 - n2));
             }
+            case "*" -> {
+                System.out.println("O resultado é: " + (n1 * n2));
+            }
         }
     }
 }
