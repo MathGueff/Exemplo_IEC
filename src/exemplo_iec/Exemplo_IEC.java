@@ -17,9 +17,9 @@ public class Exemplo_IEC {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Digite um número 1");
+        System.out.println("Digite um número");
         var n1 = sc.nextInt();
-        System.out.println("Digite um número 2");
+        System.out.println("Digite um número");
         var n2 = sc.nextInt();
         System.out.println("Digite a operacao: ");
         var op = sc.next();
