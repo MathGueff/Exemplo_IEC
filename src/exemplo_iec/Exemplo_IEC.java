@@ -21,7 +21,14 @@ public class Exemplo_IEC {
         var n1 = sc.nextInt();
         System.out.println("Digite um número 2");
         var n2 = sc.nextInt();
-        System.out.println("O resultado é: " + n1 + n2);
+        System.out.println("Digite a operacaaaaaaaaao");
+        var operacao = sc.next();
+        if(operacao.equals("+")){
+            System.out.println("O resultado é: " + n1 + n2);
+        }
+        else{
+            System.out.println("O resultado é: " + (n1 - n2));
+        }
     }
 }
     
